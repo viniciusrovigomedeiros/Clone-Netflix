@@ -1,0 +1,15 @@
+aside.logo {
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content:first baseline;
+    align-items:flex-start;
+    padding-top: 7px;
+    padding-left: 7px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+aside.logo img {
+    /* padding: 0px 15px; */
+    width: 150px;
+}

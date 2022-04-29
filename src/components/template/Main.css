@@ -1,0 +1,35 @@
+.content {
+    /* padding-top: 30px; */
+    /* margin-top: 400px; */
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    margin-left: 60px;    
+}
+
+.PopularOnNetflix {
+    color: rgba(255, 255, 255, 0.536);
+    font-size: 25px;
+    padding-bottom: 200px;
+}
+
+.currentTrends {
+    color: rgba(255, 255, 255, 0.536);
+    font-size: 25px;
+    padding-bottom: 200px;
+}
+
+.Top10Movies {
+    color: rgba(255, 255, 255, 0.536);
+    font-size: 25px;
+    padding-bottom: 200px;
+}
+
+.bestSuggestions {
+    color: rgba(255, 255, 255, 0.536);
+    font-size: 25px;
+    padding-bottom: 200px;
+}
+
+.swiper-wrapper {
+    display: flex;
+}
