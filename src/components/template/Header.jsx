@@ -34,8 +34,9 @@ export default props =>
             </li>
             <li>
             <span class="material-icons">notifications</span>
-                {/* <a className="#bell">Sino</a> */}
             </li>
+        </nav>
+        <nav className="menu3">
             <li>
                 <div className="profile"><img src={profile} alt="Move" /></div>
             </li>

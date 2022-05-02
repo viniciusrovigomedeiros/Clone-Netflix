@@ -14,15 +14,17 @@ import { Lancamentos } from '../../api/Lancamentos'
 import { ftop10 } from '../../api/Top10'
 import { Reality } from '../../api/Reality'
 import { Docs } from '../../api/Docs'
+import Teste from './Teste'
 
 export default props =>
-    <React.Fragment>
+<React.Fragment>
         <Header {...props}/>
         <main className="content">
             <CarroselEmAlta category={EmAlta} />  
             <CarroselLancamentos category={Lancamentos} />            
             <CarroselTop10 category={ftop10} />            
             <CarroselReality category={Reality} />    
-            <CarroselDocs category={Docs} />    
+            <CarroselDocs category={Docs} />  
         </main>
+        <Teste className="barraLateral"/>  
     </React.Fragment>

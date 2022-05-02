@@ -1,5 +1,5 @@
 import React from 'react'
-import './CarroselEmAlta.css'
+import './Carroseis.css'
 
 const CarroselEmAlta = ({category}) => (
     <div className='Netflix'>
@@ -8,7 +8,7 @@ const CarroselEmAlta = ({category}) => (
                 <h2>{category.title}</h2>
             <div className="corousel">
                 {category.movies.map(x => (
-                    <div href="swiper-slide"><img src={x.image} alt=""/></div>
+                    <div href="swiper-slide"><img src={x.image} alt=""width={212.75} height={119}/></div>
                 ))}
             </div>
             {/* --------- */}
