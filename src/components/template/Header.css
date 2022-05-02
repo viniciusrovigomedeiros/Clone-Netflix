@@ -1,5 +1,7 @@
 header.header {
-    height: 100%;
+    position: sticky;
+    top: 0px;
+    height: 68px;
     width: 100%;
     background-color: rgb(20, 20, 20);
     padding: 5px 15px;
@@ -10,8 +12,39 @@ header.header {
     align-items: center;
     justify-content: space-between;
     /* grid-row: span; */
+    font-size: 14px;
+    z-index: 10;
+    opacity: 0.92;
 }
 
+nav {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+nav.menu2 {
+    width: 21%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchIcon {
+    font-size: 40px;
+}
+
+.arrow2 {
+    font-size: 10px;
+    padding-left: 0;
+}
+
+
+/* 
 .t1 {
     display: flex;
     justify-content: space-between;
@@ -25,8 +58,7 @@ header.header {
     align-items: center;
 }
 
- .searchFor {
-    font-size: 20px;
+.searchFor {
     display: flex;
     padding-left: 50px;
     color: rgb(255, 255, 255);
@@ -34,14 +66,15 @@ header.header {
     overflow: hidden;
     outline: none;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .arrow {
-    font-size: 10px;
     display: flex;
     padding-left: 5px;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    font-size: 14px;
 }
 
 .kids {
@@ -85,4 +118,4 @@ header.header {
     padding-right: 40px;
     color: rgb(255, 255, 255);
     cursor: pointer;
-}
+} */

@@ -4,15 +4,43 @@ import profile from '../../assets/profile.png'
 
 export default props =>
     <header className="header">
-        <menu className="t1">
-        <li className="searchFor">Navegar</li>
-        <li className="arrow">&#9660;</li>
-        <li className="kids">Kids</li>
-        </menu>
-        <menu className="t2">
-        <li className="searchIcon">&#x02315;</li>
-        <li className="search"></li>
-        <div href="profile" className="profile"><img src={profile} alt="Move" /></div>
-        <li className="arrow2">&#9660;</li>
-        </menu>
+        <nav className="menu">
+            <li>
+                <a className="#inicio">Início</a>
+            </li>
+            <li>
+                <a className="#series">Séries</a>
+            </li>
+            <li>
+                <a className="#filmes">Filmes</a>
+            </li>
+            <li>
+                <a className="#bombando">Bombando</a>
+            </li>
+            <li>
+                <a className="#minhaLista">Minha Lista</a>
+            </li>
+            <li>
+                <a className="#idiomas">Navegar por idiomas</a>
+            </li>
+        </nav>
+
+        <nav className="menu2">
+            <li>
+                <a className="searchIcon">&#x02315;</a>
+            </li>
+            <li>
+                <a className="#infantil">Infantil</a>
+            </li>
+            <li>
+            <span class="material-icons">notifications</span>
+                {/* <a className="#bell">Sino</a> */}
+            </li>
+            <li>
+                <div className="profile"><img src={profile} alt="Move" /></div>
+            </li>
+            <li>
+                <li className="arrow2">&#9660;</li>
+            </li>
+        </nav>
     </header>

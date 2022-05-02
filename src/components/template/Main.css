@@ -3,9 +3,12 @@
     /* margin-top: 400px; */
     color: rgb(153, 153, 153);
     font-size: 12px;
-    margin-left: 60px;    
+    margin-left: 60px;  
 }
 
+.content ::-webkit-scrollbar {
+    display: none;
+}
 .PopularOnNetflix {
     color: rgba(255, 255, 255, 0.536);
     font-size: 25px;
@@ -28,8 +31,4 @@
     color: rgba(255, 255, 255, 0.536);
     font-size: 25px;
     padding-bottom: 200px;
-}
-
-.swiper-wrapper {
-    display: flex;
 }

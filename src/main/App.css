@@ -13,20 +13,23 @@
 }
 
 .app {
+    background-color: rgb(20, 20, 20);
+    color: rgba(255, 255, 255, 0.119);
     margin: 0px;
     display: grid;
-    grid-template-columns: 260px 1fr;
+    width: 100%;
+    overflow-y: auto;
+    height: 100%;
+    grid-template-columns: 181px 1fr;
     grid-template-rows: 
         var(--header-height)
         1fr
         var(--footer-height);
     grid-template-areas:/*Essa propriedade vai definir como vou organizar as coisas na tela*/
-        "logo header"
-        "content content"
-        "footer footer";   
+    "logo header"
+    "content content"
+    "footer footer";   
     height: 100vh; /*Altura inteira*/
-    background-color: rgb(20, 20, 20);
-    color: rgba(255, 255, 255, 0.119);
 }
 
 aside.logo {
