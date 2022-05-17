@@ -21,11 +21,9 @@
     overflow-y: auto;
     grid-template-columns: 181px 1fr;
     grid-template-rows: 
-        var(--header-height)
         1fr
         var(--footer-height);
     grid-template-areas:/*Essa propriedade vai definir como vou organizar as coisas na tela*/
-    "logo header"
     "content content"
     "footer footer";   
     height: 100vh; /*Altura inteira*/

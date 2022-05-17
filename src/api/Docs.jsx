@@ -1,37 +1,37 @@
-import img3 from '../assets/img3.png'
-import img7 from '../assets/img7.png'
-import img9 from '../assets/img9.png'
-import img11 from '../assets/img11.png'
-import img14 from '../assets/img14.png'
-import img15 from '../assets/img15.png'
-import img19 from '../assets/img19.png'
-import img20 from '../assets/img20.png'
-import img28 from '../assets/img28.png'
-import img29 from '../assets/img29.png'
+import img31 from '../assets/img31.png'
+import img32 from '../assets/img32.png'
+import img33 from '../assets/img33.png'
+import img34 from '../assets/img34.png'
+import img35 from '../assets/img35.png'
+import img36 from '../assets/img36.png'
+import img37 from '../assets/img37.png'
+import img38 from '../assets/img38.png'
+import img39 from '../assets/img39.png'
+import img40 from '../assets/img40.png'
 
 
 export const Docs = {
     title: "Documentários sobre ciência e tecnologia",
     docs: [{
-        image: img11
+        image: img31
     },{
-        image: img7
+        image: img32
     },{
-        image: img14
+        image: img33
     },{
-        image: img3
+        image: img34
     },{
-        image: img15
+        image: img35
     },{
-        image: img28
+        image: img36
     },{
-        image: img29
+        image: img37
     },{
-        image: img9
+        image: img38
     },{
-        image: img19
+        image: img39
     },{
-        image: img20
+        image: img40
     }
 ]
 }

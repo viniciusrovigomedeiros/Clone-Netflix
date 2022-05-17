@@ -1,10 +1,13 @@
 import './Header.css'
 import React from 'react'
 import profile from '../../assets/profile.png'
+import logo from '../../assets/logo.png'
 
 export default props =>
     <header className="header">
         <nav className="menu">
+            
+            <a href="/" className="logo"><img src={logo} alt="logo" width={90} height={25}/></a>
             <li>
                 <a className="#inicio">Início</a>
             </li>

@@ -1,9 +1,10 @@
 header.header {
     position: sticky;
+    position: absolute;
     top: 0px;
     height: 68px;
     width: 100%;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(0, 0, 0);
     padding: 0px 15px;
     color: rgb(255, 255, 255);
     display: flex;
@@ -13,8 +14,10 @@ header.header {
     justify-content: space-between;
     /* grid-row: span; */
     font-size: 14px;
-    z-index: 100;
-    opacity: 0.92;
+    z-index: 10000;
+    opacity: 0.8;
+    padding-left: 60px;
+    box-shadow: 20px 20px 80px 20px rgba(0, 0, 0, 0.906);
 }
 
 nav {
@@ -29,10 +32,9 @@ nav {
 }
 
 nav.menu {
-    width: 55%;
+    width: 65%;
     display: flex;
     justify-content: space-around;
-    
 }
 
 nav.menu2 {

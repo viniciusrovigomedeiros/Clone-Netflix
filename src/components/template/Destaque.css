@@ -1,0 +1,69 @@
+.Destaque {
+    position: relative;
+    display: flex;
+    justify-content:baseline;
+    overflow-x: hidden;
+    cursor: pointer;  
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0px;
+    padding-left: 0px;
+    z-index: 1000;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.Destaque video {
+    width: 100vw;
+    height: 900px;
+    overflow: hidden;
+}
+
+.nSerie {
+    height: 131px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 400px;
+}
+
+.Classific {
+    background-color: rgba(0, 0, 0, 0.413);
+    height: 33.7px;
+    width: 99px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    position: absolute;
+    margin-left: 1330px;
+    margin-top: 580px;
+}
+
+.n16 {
+    margin-right: 55px;
+    width: 33.7px;
+    height: 33.7px;
+}
+
+.sinopse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 540px;
+    font-size: 23px;
+    color: white;
+    text-shadow: 0.1em 0.1em 10px #333
+}
+
+.shadow {
+    position:absolute;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 20px 40px 200px 40px rgb(0, 0, 0) inset;
+    overflow: hidden;
+}
+

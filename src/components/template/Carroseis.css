@@ -1,4 +1,5 @@
 .corousel {
+    box-sizing: border-box;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
@@ -7,6 +8,9 @@
     height: 160px;
     padding-top: 10px;
     padding-bottom: 40px;
+    margin-left: 40px;  
+    padding: 15px;
+    z-index: 10000000000;
 }
 
 .corouselTop {
@@ -19,6 +23,7 @@
     padding-top: 10px;
     padding-bottom: 40px;
 }
+
 
 .corousel img {
     position: relative;
@@ -84,15 +89,21 @@ h2 {
     margin-bottom: 0px;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    margin: 0px;
+    margin-left: 40px;  
+    box-sizing: border-box;
+    padding-left: 15px;
 }
 
-.swiper-container :first-child:hover{
+.corousel :first-child:hover{
     /* padding: 20 0px; */
     margin-left: 12px;
 }
 
-.swiper-container :last-child:hover{
+.corousel :last-child:hover{
     /* padding: 20 0px; */
     margin-right: 12px;
+}
+
+.swiper-container {
+    /* position: absolute; */
 }

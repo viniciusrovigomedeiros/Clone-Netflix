@@ -1,4 +1,10 @@
-.content {
+.content .destaque {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content .carrosel {
+    position: absolute;
     color: rgb(20, 20, 20);
     font-size: 12px;
     margin-left: 40px;  
